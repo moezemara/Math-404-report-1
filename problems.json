@@ -1,0 +1,180 @@
+[
+    {
+        "objective": "z = 3x1 + 2x2 + x3",
+        "constraints": [
+            "x1 + x2 + x3 >= 4",
+            "x2 - x3 <= 2",
+            "x1 + x2 + 2x3 = 6"
+        ],
+        "problem_type": "minimize"
+    },
+    {
+        "objective": "z = 2x1 - 3x2 + x3",
+        "constraints": [
+            "x1 - x2 <= 3",
+            "2x1 + 4x2 + 3x3 <= 12",
+            "3x1 - 2x2 + x3 <= 6"
+        ],
+        "problem_type": "minimize"
+    },
+    {
+        "objective": "z = x1 + x2",
+        "constraints": [
+            "x1 + 2x2 >= 7",
+            "4x1 + x2 >= 6"
+        ],
+        "problem_type": "minimize"
+    },
+    {
+        "objective": "z = 4x1 + x2",
+        "constraints": [
+            "3x1 + x2 = 3",
+            "4x1 + 3x2 >= 6",
+            "x1 + 2x2 <= 4"
+        ],
+        "problem_type": "minimize"
+    },
+    {
+        "objective": "z = 2x1 + 1x2 + 2x3 + x4 + 4x5",
+        "constraints": [
+            "4x1 + 2x2 + 13x3 + 3x4 + x5 = 17",
+            "x1 + x2 + 5x3 + x4 + x5 = 7"
+        ],
+        "problem_type": "minimize"
+    },
+    {
+        "objective": "z = 2x1 - x2 - 3x3",
+        "constraints": [
+            "x1 + x2 <= 5",
+            "3x1 - 2x2 + x3 <= 8",
+            "2x1 + 3x2 <= 7"
+        ],
+        "problem_type": "minimize"
+    },
+    {
+        "objective": "z = 2x1 + x2 + 3x3",
+        "constraints": [
+            "3x1 - 2x2 + x3 <= 7",
+            "x1 + 3x2 <= 6",
+            "2x1 + 2x2 - x3 <= 5"
+        ],
+        "problem_type": "minimize"
+    },
+    {
+        "objective": "z = x1 + 2x2 - x3",
+        "constraints": [
+            "2x1 - x2 + x3 <= 5",
+            "3x1 + 4x2 - 2x3 <= 12",
+            "x1 + 3x2 <= 8"
+        ],
+        "problem_type": "minimize"
+    },
+
+    {
+        "objective": "z = 5x1 - x2 + 2x3",
+        "constraints": [
+            "2x1 + 3x2 <= 10",
+            "4x1 - 2x2 + x3 <= 5",
+            "x1 + x2 - 3x3 <= 2"
+        ],
+        "problem_type": "maximize"
+    },
+    {
+        "objective": "z = x1 + 2x2 - 3x3",
+        "constraints": [
+            "x1 + 2x2 <= 6",
+            "3x1 - x2 + 2x3 <= 9",
+            "2x1 + 3x2 - x3 <= 7"
+        ],
+        "problem_type": "minimize"
+    },
+    {
+        "objective": "z = 4x1 + 5x2 - x3",
+        "constraints": [
+            "2x1 - 3x2 <= 4",
+            "x1 + x2 - 2x3 <= 7",
+            "3x1 + 2x2 + x3 <= 10"
+        ],
+        "problem_type": "maximize"
+    },
+    {
+        "objective": "z = 2x1 + 3x2 - 4x3",
+        "constraints": [
+            "x1 - 2x2 <= 5",
+            "3x1 + 2x2 - x3 <= 8",
+            "2x1 - x2 <= 3"
+        ],
+        "problem_type": "maximize"
+    },
+    {
+        "objective": "z = 3x1 - 2x2 - 3x3",
+        "constraints": [
+            "x1 - x2 - x3 <= 7",
+            "7x1 - 8x2 - 11x3 <= 2",
+            "2x1 - 2x2 - 3x3 <= 1"
+        ],
+        "problem_type": "minimize"
+    },
+    {
+        "objective": "z = 5x1 + 4x2",
+        "constraints": [
+            "6x1 + 4x2 <= 24",
+            "x1 + 2x2 <= 6",
+            "-x1 + x2 <= 1",
+            "x2 <= 2"
+        ],
+        "problem_type": "maximize"
+    },
+    {
+        "objective": "z = 4x1 + x2",
+        "constraints": [
+            "x1 + 2x2 <= 4",
+            "4x1 + 3x2 >= 6",
+            "3x1 + 1x2 = 3"
+        ],
+        "problem_type": "minimize"
+    },
+    {
+        "objective": "z = x1 + 3x3",
+        "constraints": [
+            "x1 + 3x2 - x3 + 2x4 = 5",
+            "x1 - 3x2 + 5x3 - 4x4 = -1"
+        ],
+        "problem_type": "minimize"
+    },
+    {
+        "objective": "z = x1 + x2",
+        "constraints": [
+            "x1 + 2x2 >= 7",
+            "4x1 + x2 >= 6"
+        ],
+        "problem_type": "minimize"
+    },
+    {
+        "objective": "z = 3x1 + x2 + 2x3",
+        "constraints": [
+            "x1 + 2x2 + x3 <= 8",
+            "2x1 - x2 + 3x3 <= 10",
+            "4x1 + 3x2 - 2x3 <= 15"
+        ],
+        "problem_type": "maximize"
+    },
+    {
+        "objective": "z = x1 + 3x2 - 2x3",
+        "constraints": [
+            "2x1 + x2 + x3 <= 6",
+            "x1 - 2x2 + 3x3 <= 4",
+            "4x1 + 2x2 - x3 <= 10"
+        ],
+        "problem_type": "maximize"
+    },
+    {
+        "objective": "z = 4x1 - 2x2 + x3",
+        "constraints": [
+            "x1 + 2x2 - 3x3 <= 8",
+            "2x1 + x2 + 4x3 <= 10",
+            "3x1 - x2 + 2x3 <= 7"
+        ],
+        "problem_type": "maximize"
+    }
+]
